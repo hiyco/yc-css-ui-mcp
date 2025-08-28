@@ -22,6 +22,8 @@
 ## 🚀 快速开始
 
 ### 克隆仓库安装
+
+```bash
 git clone https://github.com/yc-css-ui/yc-css-ui-mcp.git
 cd yc-css-ui-mcp
 
@@ -36,8 +38,7 @@ yarn test
 
 ### 启动开发模式
 yarn dev
-
-
+```
 
 ### NPM安装-待发布-目前不可用
 
