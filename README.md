@@ -40,7 +40,6 @@ yarn dev
 
 ### NPM安装-待发布-目前不可用
 
-```bash
 # 使用npm
 ~~npm install @yc-css-ui/core @yc-css-ui/server~~
 
@@ -49,7 +48,7 @@ yarn dev
 
 # 使用pnpm
 ~~pnpm add @yc-css-ui/core @yc-css-ui/server~~
-```
+
 
 ### 基础使用
 
