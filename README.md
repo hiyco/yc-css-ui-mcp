@@ -73,6 +73,14 @@ console.log(result.issues[0].message); // "flex容器缺少明确高度"
 2. 在Claude Code中使用：
 
 ```bash
+Claude Code 命令行中输入：
+请使用YC-CSS-UI分析以下CSS代码问题：
+“
+.header {
+  font-size: 12px;
+  background-color: #f0f0f0;
+  color: #999;
+}”
 # 分析CSS文件
 /css:debug styles/main.css
 
