@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![YC-CSS-UI Logo](https://via.placeholder.com/200x100?text=YC-CSS-UI+MCP)
-
 **YC-CSS-UI 智能CSS调试与优化MCP服务**
 
 [![CI](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/ci.yml)
