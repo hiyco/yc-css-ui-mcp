@@ -21,32 +21,32 @@
 
 ## 🚀 快速开始
 
-# 克隆仓库安装
+## 克隆仓库安装
 git clone https://github.com/yc-css-ui/yc-css-ui-mcp.git
 cd yc-css-ui-mcp
 
-# 安装依赖
+## 安装依赖
 yarn install
 
-# 构建所有包
+## 构建所有包
 yarn build
 
-# 运行测试
+## 运行测试
 yarn test
 
-# 启动开发模式
+## 启动开发模式
 yarn dev
 
 
 ### NPM安装-待发布-目前不可用
 
-# 使用npm
+### 使用npm
 ~~npm install @yc-css-ui/core @yc-css-ui/server~~
 
-# 使用yarn
+### 使用yarn
 ~~yarn add @yc-css-ui/core @yc-css-ui/server~~
 
-# 使用pnpm
+### 使用pnpm
 ~~pnpm add @yc-css-ui/core @yc-css-ui/server~~
 
 
