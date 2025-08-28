@@ -27,6 +27,9 @@ coverage/
 *.swo
 *~
 
+# Claude Code settings (should not be version controlled)
+.claude/
+
 # OS generated files
 .DS_Store
 .DS_Store?
