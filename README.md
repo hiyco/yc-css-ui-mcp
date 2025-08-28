@@ -4,7 +4,6 @@
 
 **YC-CSS-UI 智能CSS调试与优化MCP服务**
 
-[![CI](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/ci.yml)
 [![Release](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/yc-css-ui/yc-css-ui-mcp/actions/workflows/release.yml)
 [![npm version](https://badge.fury.io/js/@yc-css-ui%2Fcore.svg)](https://badge.fury.io/js/@yc-css-ui%2Fcore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
