@@ -24,9 +24,7 @@
 - Node.js 18+
 - Yarn 3.8+
 
-## 🚀 快速开始
-
-### 克隆仓库安装
+### 克隆仓库本机安装使用
 
 ```bash
 git clone https://github.com/yc-css-ui/yc-css-ui-mcp.git
