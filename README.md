@@ -1,4 +1,4 @@
-# YC-CSS-UI MCP - AI-Powered CSS Debugging & Optimization
+# YC-CSS-UI MCP CSS Debugging & Optimization
 
 <div align="center">
 
@@ -245,15 +245,13 @@ yarn test --coverage
 
 - [PostCSS](https://postcss.org/) - 强大的CSS处理工具
 - [CSS Tree](https://github.com/csstree/csstree) - CSS解析和分析
-- [Claude](https://claude.ai) - AI能力支持
 - [Model Context Protocol](https://modelcontextprotocol.io/) - MCP标准
 
 ## 📞 联系我们
 
 - 🐛 [报告问题](https://github.com/yc-css-ui/yc-css-ui-mcp/issues)
 - 💬 [讨论](https://github.com/yc-css-ui/yc-css-ui-mcp/discussions)
-- 📧 Email: contact@yc-css-ui.org
-- 🐦 Twitter: [@yccssui](https://twitter.com/yccssui)
+- 📧 Email: yichaoling@gmail.com
 
 ---
 
