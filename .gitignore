@@ -1,0 +1,121 @@
+# Dependencies
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/unplugged/
+.yarn/build-state.yml
+.pnp.*
+
+# Build outputs
+dist/
+build/
+lib/
+coverage/
+*.tgz
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+.nyc_output/
+.coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+.tmp/
+.temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local development files
+test-*.css
+test-*.js
+simple-mcp-server.js
+standalone-css-mcp.js
+working-css-mcp-server.js
+css-mcp-server-reliable.js
+run-mcp-server.js
+test-*.js
+verify-installation.js
+install-css-mcp.sh
+诊断CSS_MCP问题.sh
+
+# Documentation that might contain sensitive info
+*使用指南*.md
+*使用模板*.md
+*故障排除指南*.md
+*快速开始*.md
+*安装配置指南*.md
+*实际使用演示*.md
+*本机项目集成指南*.md
+*部署指南*.md

@@ -1,0 +1,57 @@
+{
+  "name": "yc-css-ui-mcp",
+  "version": "0.1.0",
+  "description": "YC-CSS-UI智能调试与优化MCP服务",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "tools/*",
+    "examples/*"
+  ],
+  "packageManager": "yarn@4.9.4",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "type-check": "turbo run type-check",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.11.20",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "css",
+    "mcp",
+    "debugging",
+    "optimization",
+    "ai",
+    "claude",
+    "postcss"
+  ],
+  "author": "YC-CSS-UI MCP Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yc-css-ui/yc-css-ui-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yc-css-ui/yc-css-ui-mcp/issues"
+  },
+  "homepage": "https://yc-css-ui.org",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4"
+  }
+}

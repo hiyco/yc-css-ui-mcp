@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(yarn install)",
+      "Bash(corepack enable)",
+      "Bash(touch:*)",
+      "Bash(yarn build)",
+      "Bash(yarn add:*)",
+      "Bash(node:*)",
+      "Bash(yarn test)",
+      "Bash(timeout:*)",
+      "Bash(true)",
+      "Bash(gtimeout:*)",
+      "Bash(chmod:*)",
+      "Bash(yarn test:*)",
+      "Bash(yarn workspace @css-mcp/server:*)",
+      "Bash(yarn workspace @css-mcp/cli:*)",
+      "Bash(./install-css-mcp.sh:*)",
+      "Bash(cat:*)",
+      "Bash(./诊断CSS_MCP问题.sh:*)",
+      "Bash(grep:*)",
+      "Bash(npm run build:*)",
+      "Bash(yarn node:*)",
+      "Bash(yarn clean)",
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(yarn set version:*)",
+      "Bash(yarn workspace @yc-css-ui/server start:*)",
+      "Bash(yarn workspace @yc-css-ui/core:*)",
+      "Bash(yarn workspace @yc-css-ui/server build:*)",
+      "Bash(find:*)",
+      "Bash(./scripts/prepare-release.sh:*)",
+      "Bash(bash:*)",
+      "Bash(yarn type-check)",
+      "Bash(yarn workspace @yc-css-ui/server type-check:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

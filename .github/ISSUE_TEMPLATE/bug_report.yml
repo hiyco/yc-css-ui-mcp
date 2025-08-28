@@ -1,0 +1,87 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve YC-CSS-UI MCP
+title: '[Bug]: '
+labels: ['bug', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen
+      placeholder: Describe expected behavior...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: css-sample
+    attributes:
+      label: CSS Sample
+      description: If applicable, provide the CSS code that causes the issue
+      render: css
+      placeholder: |
+        .example {
+          display: flex;
+          /* CSS code that reproduces the issue */
+        }
+        
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Low - Minor inconvenience
+        - Medium - Affects functionality
+        - High - Blocks critical functionality
+        - Critical - System unusable
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Provide details about your environment:
+      value: |
+        - OS: 
+        - Node.js version: 
+        - Yarn version: 
+        - Package version: 
+        - Claude Code version: 
+      render: markdown
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Additional information...
