@@ -99,12 +99,14 @@ console.log(result.issues[0].message); // e.g. "Flex container lacks an explicit
 
 ```
 # Ask the agent to analyze CSS
-请使用 YC-CSS-UI 分析以下 CSS 代码问题：
-“.header {
+
+method ： claude code cli :Please use YC-CSS-UI to analyze the following CSS code issues:
+
+".header {
   font-size: 12px;
   background-color: #f0f0f0;
   color: #999;
-}”
+}:
 
 # Diagnose a file
 /css:debug styles/main.css
