@@ -4,6 +4,8 @@
 
 **YC-CSS-UI 智能CSS调试与优化MCP服务**
 
+**Languages:** [English](README.en.md) | [简体中文](README.md)
+
 [![npm version](https://badge.fury.io/js/@yc-css-ui%2Fcore.svg)](https://badge.fury.io/js/@yc-css-ui%2Fcore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -19,20 +21,41 @@
 - 🌐 **兼容性检查** - 跨浏览器兼容性验证
 - ♿ **可访问性** - WCAG合规性检查
 
-## 🚀 快速开始
+### 环境要求
 
-### 安装
+- Node.js 18+
+- Yarn 3.8+
+
+### 克隆仓库本机安装使用
 
 ```bash
-# 使用npm
-npm install @yc-css-ui/core @yc-css-ui/server
+git clone https://github.com/yc-css-ui/yc-css-ui-mcp.git
+cd yc-css-ui-mcp
 
-# 使用yarn
-yarn add @yc-css-ui/core @yc-css-ui/server
+### 安装依赖
+yarn install
 
-# 使用pnpm
-pnpm add @yc-css-ui/core @yc-css-ui/server
+### 构建所有包
+yarn build
+
+### 运行测试
+yarn test
+
+### 启动开发模式
+yarn dev
 ```
+
+### NPM安装-待发布-目前不可用
+
+### 使用npm
+~~npm install @yc-css-ui/core @yc-css-ui/server~~
+
+### 使用yarn
+~~yarn add @yc-css-ui/core @yc-css-ui/server~~
+
+### 使用pnpm
+~~pnpm add @yc-css-ui/core @yc-css-ui/server~~
+
 
 ### 基础使用
 
@@ -171,33 +194,6 @@ body div#main .content ul li.item a.link {
 .nav-link {
   color: blue; /* ✅ 使用简单的类选择器 */
 }
-```
-
-## 🛠️ 开发
-
-### 环境要求
-
-- Node.js 18+
-- Yarn 3.8+
-
-### 本地开发
-
-```bash
-# 克隆仓库
-git clone https://github.com/yc-css-ui/yc-css-ui-mcp.git
-cd yc-css-ui-mcp
-
-# 安装依赖
-yarn install
-
-# 构建所有包
-yarn build
-
-# 运行测试
-yarn test
-
-# 启动开发模式
-yarn dev
 ```
 
 ### 测试
